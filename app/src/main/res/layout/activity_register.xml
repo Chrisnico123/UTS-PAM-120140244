@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/button_back"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text_reg"
+        android:text="Register"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/text_reg"
+        android:padding="30dp"
+        android:id="@+id/ly_register"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Enter Your Name"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white"
+            android:id="@+id/input_name"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Your Email"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white"
+            android:id="@+id/input_email"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Enter Your Password"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white"
+            android:id="@+id/input_password"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Github Username"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white"
+            android:id="@+id/input_git"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="NIK"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:background="@color/white"
+            android:id="@+id/input_nik"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Register"
+        android:id="@+id/btn_register"
+        />
+
+</RelativeLayout>

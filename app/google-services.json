@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1032101331381",
+    "project_id": "android-ea612",
+    "storage_bucket": "android-ea612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032101331381:android:7d8824ac21b30ed83219fc",
+        "android_client_info": {
+          "package_name": "com.example.utspam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUOZc08jD01mYC-yzQMpt7gywzW7ygVGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
